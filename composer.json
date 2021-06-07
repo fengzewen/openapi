@@ -1,0 +1,35 @@
+{
+    "name": "hgs/openapi",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "hgs",
+        "openapi"
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/database": "~5.6.34|~5.7.0|~5.8.0|^6.0|^7.0",
+        "illuminate/support": "~5.6.34|~5.7.0|~5.8.0|^6.0|^7.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0|^8.0|^9.0"
+    },
+    "authors": [
+        {
+            "name": "zevin",
+            "email": "8422912@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Hgs\\Openapi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hgs\\Openapi\\tests\\": "tests/"
+        }
+    }
+}
